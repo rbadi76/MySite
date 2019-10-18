@@ -1,6 +1,12 @@
-variable "project_name-dev" {}
-variable "project_name-dev-user" {}
-variable "project_name-dev-uploads" {}
+variable "project_name-dev" {
+  default = "badis-website-dev"
+}
+variable "project_name-dev-user" {
+  default = "badi-dev"
+}
+variable "project_name-dev-uploads" {
+  default = "badis-website-dev-uploads"
+}
 
 # Random password for database
 resource "random_id" "dev" {

@@ -1,4 +1,7 @@
-variable "project_name" {}
+variable "project_name" {
+  default = "badis-website"
+}
+
 variable "aws_region" { default = "eu-west-1" }
 
 # AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
