@@ -24,3 +24,6 @@ htdocs/wp-content/uploads/*
 # Note: WP-content is mostly meant to be populated via composer
 # If you create custom plugins, force add it to git so that it's tracked
 # If you create custom themes, they are automatically tracked in git
+
+# Node modules folder in the custom folder.
+custom/node_modules

@@ -1,0 +1,17 @@
+/*!
+Theme Name: Amora child theme
+Theme URI: https://glamour.test
+Description: Child theme of Amora for my personal site
+Author: Róbert Badí Baldursson
+Template: Amora
+Version: 1.0.0
+*/
+
+// style.scss
+// ==============
+
+//Core partials
+@import "variables";
+@import "base";
+@import "fonts";
+@import "footer";
